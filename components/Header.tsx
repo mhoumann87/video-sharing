@@ -47,6 +47,22 @@ import {ICONS} from "@/constants";
                     </div>
                 </aside>
             </section>
+
+            <section className="search-filter">
+                <div className="search">
+                    <input
+                        type="text"
+                        placeholder="Search for videos, tags, folders..." />
+                    <Image
+                        src="/assets/icons/search.svg"
+                        alt="Search"
+                        width={16}
+                        height={16}
+                    />
+                </div>
+
+                {'<DropdownList />'}
+            </section>
         </header>
     )
     }
